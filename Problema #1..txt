@@ -1,0 +1,44 @@
+Problema #1. Información de un Producto 
+Diseña un programa que muestre la siguiente información sobre un producto: 
+• Nombre del producto 
+• Descripción del producto 
+• Precio del producto 
+• Código de barras 
+
+Algoritmo
+1. Iniciar
+2. Declarar variables (Nombre del producto, Descripción del producto, Precio del producto, Código de barras)
+3. Mostrar resultados
+4. Fin
+
+
+Pseudocódigo
+
+Program InformacionDeUnProducto
+
+Start
+
+//Programa que registra en nombre, descripción, precio y el código de barras de un producto
+
+//Declaración de variables
+
+Declare string nombre
+Declare string descripción
+Declare float precio
+Declare string código de barras
+
+//Ingresar datos
+
+Display "Ingrese el nombre del producto"
+Input nombre
+Display "Ingrese la descripción del producto"
+Input descripción
+Display "Ingrese el precio del producto"
+Input precio
+Display "Ingrese el código de barras del producto"
+Input código de barras
+
+//Mostrar información
+Display "La información del producto es la siguiente", nombre, " descripción, " precio, " código de barras"
+
+End
