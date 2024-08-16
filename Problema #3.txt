@@ -39,7 +39,7 @@ Display "El costo total invertido es:" , costo_total_invertido
 // Calcular el monto de la comisión pagada al vendedor
 Set comision = precio_final_de_venta * 0,05
 // Mostrar resultado
-Display "La comisión sobre el precio de venta al vendedor es: $" , comision
+Display "La comisión sobre el precio de venta al vendedor es:" , comision
 // Calcular la ganancia o pérdida
 Set ganancia_o_perdida = precio_final_de_venta - (costo_total_invertido + comision)
 // Mostrar resultado
