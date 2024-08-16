@@ -1,0 +1,47 @@
+3- Programa de Ganancias y Pérdidas en un Negocio de Venta de Autos 
+El mes pasado, un concesionario de autos vendió un automóvil usado. Aquí están los detalles: 
+• El precio de compra del automóvil fue de $15,000. 
+• Se realizaron reparaciones que costaron $2,000. 
+• El concesionario vendió el automóvil por $18,500. 
+• Se pagó una comisión del 5% sobre el precio de venta al vendedor. 
+ 
+Diseña un programa que muestre la siguiente información: 
+• El costo total invertido en el automóvil. 
+• El monto de la comisión pagada al vendedor. 
+• El precio final de venta. 
+• La ganancia o pérdida después de la venta, considerando todos los costos y la comisión.
+
+Algoritmo Para Determinar Ganancias y Pérdidas en un Negocio de Venta de Autos 
+
+1. Iniciar
+2. Definir el precio de compra del automóvil, el costo de las reparaciones, el precio de venta del automóvil, el monto de la comisión, y la ganancia o pérdida después de la venta.
+3. Calcular el costo total invertido sumando el precio de compra y el costo de las reparaciones.
+4. Calcular el monto de la comisión pagada al vendedor multiplicando el precio de venta por 0,05.
+5. Calcular la ganancia o pérdida restando del precio de venta el costo total invertido y la comisión pagada al vendedor.
+6. Mostrar los resultados.
+7. Fin
+
+Pseudocódigo
+Program ganancias_y_perdidas_en_un_negocio_de_venta_de_autos
+// Programa para calcular las ganancias y pérdidas en un negocio de venta de autos
+Start
+// Declarar variables
+Declare float precio_compra = 15000
+Declare float costo_de_reparaciones = 2000
+Declare float precio_final_de_venta = 18500
+Declare float comision
+Declare float costo_total_invertido
+Declare float ganancia_o_perdida
+// Calcular el costo total invertido
+Set costo_total_invertido = precio_compra + costo_de_reparaciones
+// Mostrar resultado
+Display "El costo total invertido es:" , costo_total_invertido
+// Calcular el monto de la comisión pagada al vendedor
+Set comision = precio_final_de_venta * 0,05
+// Mostrar resultado
+Display "La comisión sobre el precio de venta al vendedor es: $" , comision
+// Calcular la ganancia o pérdida
+Set ganancia_o_perdida = precio_final_de_venta - (costo_total_invertido + comision)
+// Mostrar resultado
+Display "La ganancia o pérdida es:" , ganancia_o_perdida
+End
